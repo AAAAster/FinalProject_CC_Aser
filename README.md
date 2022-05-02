@@ -10,14 +10,21 @@ The name of my project is "**Jump When You are Ready**".
 4. If the next platform is created within the platform range, the score is increased by 10. If the game is not over.
 5. Judge whether the score is greater than the highest score in history and update the highest score in history.
 
+
 **Animation effects**
-Effect description:
-Press the mouse on the platform where the ball is located to have a force effect, and slowly recover after the mouse is released.
-The curve of the ball's movement through the air should be smooth
-The ball and platform should have a 3D effect
+  Effect description:
+ 
+  ·Press the mouse on the platform where the ball is located to have a force effect, and slowly recover after the mouse is released.
+  
+  ·The curve of the ball's movement through the air should be smooth
+  
+  ·The ball and platform should have a 3D effect
 
 
 **Remark:**
+
 ! The movement involves calculator and delay device, be careful to clear timer so as not to disturb the animation effect!
+
 ! Mouse press and release as a complete process, before the ball movement can not be triggered repeatedly!
+
 ! Make sure that the time the ball moves is related to the time the mouse is down!
