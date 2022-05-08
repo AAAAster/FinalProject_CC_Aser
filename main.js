@@ -2,7 +2,7 @@ locY = [];
 randX = [];
 randH = [];
 pressure =0;
-playY = 680;
+playY = 650;
 playsat = 1;
 
 function setup() {
@@ -57,7 +57,7 @@ function game(){
 
 function jug(playY,locY){
 	for(let j=0;j<=10;j++){
-		if (locY[j]-10 < playY < locY[j]+10){
+		if (locY[j]-10 < playY && playY< locY[j]+10){
 			playsat = 0;
 		}
 	}
@@ -71,7 +71,8 @@ function draw(){
 	text('you start here➡️', 30, 690);
 	fill(91,66,200);
 	game();
-	print(playsat);
+	
+	jug(playY,locY);
 	if(playsat == 0){
 		createCanvas(300, 700);
 		background(250);
