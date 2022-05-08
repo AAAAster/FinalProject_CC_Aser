@@ -1,40 +1,43 @@
 locY = [];
-playY = 680;
+randX = [];
+randH = [];
 
 function setup() {
 	createCanvas(300, 700);
 	background(250);
-	creatMap();	//生成地图,locY储存了每个地图点上的Y值
-	print('setup finish');
-	print(locY);
+	//-------
+	for (let i = 1;i <= 11; i++){
+		append(locY,660 - random(50,60)*i);	//Y的位置
+		append(randX,random(100,200));		//方块的x
+		append(randH,random(8,10));		//方块的高度
+	}
+	
+	print(locY);	// 在地图中Y的不同位置
+	//print(randW);	// 在地图中W的不同宽度
+	//print(randH);	// 在地图中W的不同高度
+	
+	//--
+
+	
 }
 
+//------
+function mymap(x, h, y){
+	for(let i=0;i<=10;i++){
+		noStroke();
+		fill(0,0,0);
+		quad(x[i]-100,y[i]+h[i],x[i]+100,y[i]+h[i],x[i]+100,y[i]-h[i],x[i]-100,y[i]-h[i]);
+	}
 
-function creatMap(){
-	//生成随机Y地址
-	for(let poss = 650; poss >= 0 ; poss -= random(45,60) ){
-		append(locY, poss);	//生成坐标点，储存在locY中
-		drawPlatform(random(100,200),poss);//绘制地图
-		}
+}
+//--
+function draw(){
+	background(250);
+	mymap(randX,randH,locY);
 	textSize(10);
 	text('you start here➡️', 30, 690);
-		
-}
-function drawPlatform(x,y){
-	wide = random(200,300)/2;
-	hight = random(15,20)/2;
-	fill(random(100,255),random(0,200),random(100,255));
-	noStroke();
-	quad(x-wide,y+hight,x+wide,y+hight,x+wide,y-hight,x-wide,y-hight);
+
 }
 
 
-function draw(){
-	fill(255, 204, 0);
-	game();
-}
-function game(){
-	circle(150, playY, 25);	//x,y,w 显示角色位置
-}
-
-
+	
