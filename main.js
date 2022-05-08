@@ -3,6 +3,7 @@ randX = [];
 randH = [];
 pressure =0;
 playY = 680;
+playsat = 1;
 
 function setup() {
 	createCanvas(300, 700);
@@ -54,6 +55,14 @@ function game(){
 	
 }
 
+function jug(playY,locY){
+	for(let j=0;j<=10;j++){
+		if (locY[j]-10 < playY < locY[j]+10){
+			playsat = 0;
+		}
+	}
+}
+
 
 function draw(){
 	background(250);
@@ -62,8 +71,14 @@ function draw(){
 	text('you start here➡️', 30, 690);
 	fill(91,66,200);
 	game();
-	
-
+	print(playsat);
+	if(playsat == 0){
+		createCanvas(300, 700);
+		background(250);
+		textSize(50);
+		fill(0, 102, 153, 51)
+		text('You lose', 0, 300);
+		}
 }
 
 
