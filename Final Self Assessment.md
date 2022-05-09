@@ -18,7 +18,8 @@ As far as I am concerned, I spend 4-6 hours in the course of Creative Coding eve
 **- What milestones do I expect? :** The initial milestone of my project was a very polished game with credits, sound effects, 3D animation, etc. But I had to change my plan in the face of reality. There are several milestones in the final project design. 1. Complete the generation of random map. 2. Make the character move according to the length of the keyboard click. 3. Collision detection is implemented. 4. Complete the dynamic effect of compression when pressing.
 
 
-**- What are you most proud of about your final project? :**
+**- What are you most proud of about your final project? :** What I am most proud of in the final project is my attitude towards problems. The code THAT I had spent a week learning and improving was abandoned overnight. Because at that time I realized the importance of original code, I must be able to complete every function by myself, rather than borrowing others' work. I rewrote all the programs in one night.
 
-**
-- How do you think you will continue programming:** I will learn more about programming in the future. I plan to improve my programming ability through practical cases, such as finishing the final version of this project in my spare time during the summer vacation. Add various effects as well as beautify the UI design and improve the map functionality. And more open source projects will be completed with hardware in the future.
+
+
+**- How do you think you will continue programming:** I will learn more about programming in the future. I plan to improve my programming ability through practical cases, such as finishing the final version of this project in my spare time during the summer vacation. Add various effects as well as beautify the UI design and improve the map functionality. And more open source projects will be completed with hardware in the future.
