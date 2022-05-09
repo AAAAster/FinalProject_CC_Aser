@@ -12,3 +12,13 @@ As far as I am concerned, I spend 4-6 hours in the course of Creative Coding eve
 
 
 **- Specifically considering your final project:** AT the very beginning of the project I wanted to do a jump game with 3D motion effects. When the user presses down on the keyboard, the avatar becomes smaller, similar to when the user presses down on pressure and receives feedback. If done correctly, the avatar can loop through the map indefinitely. But when I actually started the project I found it difficult. 1: If building a map that runs indefinitely becomes difficult. I learned a lot of information online, and according to the reference code to construct a new code to achieve infinite map function. But I didn't have the ability to construct my own code so I gave up on the idea. A finite map is generated using an array generation method. After giving up this project, I started a new project called "Concept Sketchboard". I looked through a lot of literature and found that there were many similar works on the Internet. I was worried about repetition so I went back to the production of "Jump". In the process of making this game also encountered a lot of problems. I also learned a lot of practical skills from it.
+
+**- Think specifically about your final project: **Throughout the process I learned how to look up information and learn problem-solving ideas from previous work.
+
+**- What milestones do I expect? :** The initial milestone of my project was a very polished game with credits, sound effects, 3D animation, etc. But I had to change my plan in the face of reality. There are several milestones in the final project design. 1. Complete the generation of random map. 2. Make the character move according to the length of the keyboard click. 3. Collision detection is implemented. 4. Complete the dynamic effect of compression when pressing.
+
+
+**- What are you most proud of about your final project? :**
+
+**
+- How do you think you will continue programming:** I will learn more about programming in the future. I plan to improve my programming ability through practical cases, such as finishing the final version of this project in my spare time during the summer vacation. Add various effects as well as beautify the UI design and improve the map functionality. And more open source projects will be completed with hardware in the future.
